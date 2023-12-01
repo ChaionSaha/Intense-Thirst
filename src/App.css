@@ -1,0 +1,15 @@
+.container {
+	@apply mx-auto;
+}
+
+.btn-gradient {
+	@apply text-white border-transparent px-7 btn rounded-xl;
+	border-radius: 10px;
+	background: linear-gradient(
+			180deg,
+			rgba(254, 200, 241, 0.9) -22.92%,
+			rgba(254, 200, 241, 0) 26.73%
+		),
+		radial-gradient(137.13% 253.39% at 76.68% 66.67%, #c73543 0%, #ee8629 100%);
+	background-blend-mode: overlay, normal;
+}
