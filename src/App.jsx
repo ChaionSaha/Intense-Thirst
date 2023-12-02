@@ -12,7 +12,7 @@ import Portfolio from './Pages/PortfolioPage/Portfolio';
 
 function App() {
 	return (
-		<>
+		<div className='bg-base-200'>
 			<Header />
 			<CustomTitle title='Home' />
 			<Routes>
@@ -24,7 +24,7 @@ function App() {
 				</Route>
 			</Routes>
 			<Footer />
-		</>
+		</div>
 	);
 }
 

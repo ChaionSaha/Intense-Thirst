@@ -8,6 +8,8 @@ export default {
 				secondary: '#F25422',
 				'base-100': '#fff',
 				'base-200': '#F6FCFF',
+				'base-300': '#666',
+				'header-color': '#2D3445',
 			},
 		},
 		screens: {
