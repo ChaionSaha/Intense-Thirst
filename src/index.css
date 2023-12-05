@@ -10,3 +10,13 @@
 *::before {
 	font-family: 'Nunito', sans-serif;
 }
+
+.timeline > li > hr {
+	border-right: 2px dashed #f1bfb5 !important;
+
+	color: transparent !important;
+}
+
+.timeline > li > .timeline-middle > p {
+	@apply p-2 text-white rounded-lg bg-secondary;
+}

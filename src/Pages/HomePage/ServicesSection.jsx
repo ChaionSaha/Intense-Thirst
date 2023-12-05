@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import HeaderText from '../../Components/HeaderText';
 
 const ServicesSection = () => {
 	const [services] = useState([
@@ -20,14 +21,7 @@ const ServicesSection = () => {
 	]);
 	return (
 		<div className='container flex flex-col items-center px-5 mt-20 lg:mt-10 lg:px-0'>
-			<div className='flex flex-col items-center text-center gap-y-3'>
-				<p className='font-bold tracking-widest uppercase text-secondary'>
-					Our Services
-				</p>
-				<p className='text-3xl font-bold lg:text-4xl text-header-color'>
-					For Your Good Business
-				</p>
-			</div>
+			{<HeaderText header='Our Services' text='For Your Good Business' />}
 			<div className='grid px-5 mt-16 lg:px-0 lg:grid-cols-3 gap-x-16 gap-y-5'>
 				{services.map((s, i) => {
 					return (
