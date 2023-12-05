@@ -1,7 +1,7 @@
 import React from 'react';
 import heroBg from '../../img/home-hero-bg.png';
 
-const HomePageHero = () => {
+const HomePageHero = ({ handleClick }) => {
 	return (
 		<div
 			className='lg:h-[80vh] h-[100vh]'
@@ -11,15 +11,17 @@ const HomePageHero = () => {
 			}}
 		>
 			<div className='container relative flex flex-col items-center justify-center w-full h-full '>
-				<div className='text-6xl font-bold text-white px-5 lg:px-0 lg:w-[50%] text-center'>
+				<div className='text-5xl lg:text-6xl font-bold text-white px-5 lg:px-0 lg:w-[50%] text-center'>
 					Quench your <span className='text-secondary'>Thirst</span> for
 					excellence with us
 				</div>
-				<div className='text-center px-5 lg:px-0 lg:w-[40%] text-white mt-5'>
+				<div className='text-center text-lg lg:text-xl px-5 lg:px-0 lg:w-[40%] text-white mt-5'>
 					Crafting digital success through exceptional web design and
 					development services.
 				</div>
-				<button className='mt-10 btn-gradient'>Read More</button>
+				<button onClick={handleClick} className='mt-10 text-lg btn-gradient'>
+					Read More
+				</button>
 			</div>
 		</div>
 	);

@@ -68,7 +68,7 @@ const Footer = () => {
 					</ul>
 				</div>
 			</div>
-			<div className='container text-lg text-center py-7'>
+			<div className='container text-center lg:text-lg py-7'>
 				© Copyrights <span className='text-[#007DB2]'>Intense</span>{' '}
 				<span className='text-secondary'>Thirst</span>. All Rights Reserved
 			</div>
