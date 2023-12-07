@@ -11,6 +11,9 @@ export default {
 				'base-300': '#666',
 				'header-color': '#2D3445',
 			},
+			boxShadow: {
+				card: '0px 13px 19px 0px rgba(0,0,0,0.07)',
+			},
 		},
 		screens: {
 			sm: '576px',

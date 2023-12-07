@@ -6,7 +6,9 @@ const HeaderText = ({ header, text }) => {
 			<p className='font-bold tracking-widest uppercase text-secondary'>
 				{header}
 			</p>
-			<p className='text-3xl font-bold lg:text-4xl text-header-color'>{text}</p>
+			<p className='text-3xl font-bold capitalize lg:text-4xl text-header-color'>
+				{text}
+			</p>
 		</div>
 	);
 };

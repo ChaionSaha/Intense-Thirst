@@ -50,9 +50,9 @@ const TimelineSection = () => {
 									</p>
 								</div>
 								<div
-									className={`p-5 lg:mx-10 mb-10 ${
+									className={`p-5 px-7 lg:mx-10 mb-10 ${
 										(i + 1) % 2 == 0 ? 'lg:timeline-end' : 'lg:timeline-start'
-									} timeline-end lg:w-[50%] w-[90%] bg-base-100 rounded-xl`}
+									} timeline-end lg:w-[50%] w-[90%] bg-base-100 rounded-xl shadow-card`}
 								>
 									<img src={icon} className='w-fit' alt='' />
 									<p className='text-xl font-bold border-b-2 mt-7 border-secondary pb-7 w-fit'>

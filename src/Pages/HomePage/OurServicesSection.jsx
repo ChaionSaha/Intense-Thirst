@@ -59,7 +59,7 @@ const OurServicesSection = () => {
 					return (
 						<div
 							key={i}
-							className='flex flex-col bg-base-100  rounded-xl shadow-[0px_13px_19px_0px_rgba(0,0,0,0.07)]'
+							className='flex flex-col bg-base-100 rounded-xl shadow-card'
 						>
 							<img src={s.img} alt='' className='w-full rounded-xl' />
 							<div className='p-5'>
