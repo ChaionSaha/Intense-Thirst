@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import icon from '../img/icon.png';
 import bg from '../img/workflow-bg.png';
 import HeaderText from './HeaderText';
 
-const TimelineSection = () => {
+const TimelineSection = ({ header, text }) => {
 	const [timeline] = useState([
 		{
 			head: 'Planning',
@@ -33,12 +33,7 @@ const TimelineSection = () => {
 			}}
 		>
 			<div className='container flex flex-col items-center justify-center pt-20 lg:pt-56'>
-				{
-					<HeaderText
-						header='our workflow'
-						text='Optimized workflow for seamless operations'
-					/>
-				}
+				{<HeaderText header={header} text={text} />}
 				<ul className='px-5 mt-20 lg:mt-32 timeline timeline-snap-icon max-md:timeline-compact timeline-vertical lg:px-0'>
 					{timeline.map((t, i) => {
 						return (

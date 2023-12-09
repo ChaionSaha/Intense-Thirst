@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 
 import TimelineSection from '../../Components/TimelineSection';
 import BenefitsSection from './BenefitsSection';
@@ -20,7 +20,10 @@ const HomePage = () => {
 			<ServicesSection />
 			<BuildSomethingSection />
 			<OurServicesSection />
-			<TimelineSection />
+			<TimelineSection
+				header='our workflow'
+				text='Optimized workflow for seamless operations'
+			/>
 		</div>
 	);
 };
