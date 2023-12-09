@@ -1,5 +1,11 @@
+import keepPreset from 'keep-react/src/keep-preset.js';
+
 export default {
-	content: ['./src/**/*.{js,ts,jsx,tsx}'],
+	content: [
+		'./src/**/*.{js,ts,jsx,tsx}',
+		'node_modules/keep-react/**/*.{js,jsx,ts,tsx}',
+	],
+	presets: [keepPreset],
 
 	theme: {
 		extend: {

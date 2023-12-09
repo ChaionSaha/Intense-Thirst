@@ -1,1 +1,20 @@
-[]
+[
+	{
+		"name": "Smiling Face",
+		"shortDes": "customer meeting done, UX design complete; development and testing finished. Success!",
+		"projectCat": "organization",
+		"details": {
+			"cat": "organization",
+			"tags": ["Non-profit", "Humanity"],
+			"technologies": ["UI/UX (Figma)", "Development (Wordpress "],
+			"information": "Smiling Face is a non-profitable organization working to achieve the goal of ensuring basic human needs. We believe that everything is possible if we try anything from the core of our hearts.  We are working in a limited sphere currently as we have just started to grow. However, we believe in our potential and can generate tremendous change if you spread your hand of humanity. A small contribution from everyone can bring a extensive consequence unitedly and can be a booster to our DREAM",
+			"benefits": [
+				"Smiling Face ensures access to basic human needs.",
+				"Services provided by the organization bring joy and relief.",
+				"Compassionate efforts create a positive impact on recipients' lives.",
+				"Instills hope and optimism in the lives of those served. "
+			]
+		},
+		"images": {}
+	}
+]

@@ -1,7 +1,13 @@
 import React from 'react';
+import CustomTitle from '../../Components/CustomeTitle';
 
 const Portfolio = () => {
-	return <div>This is portfolio page</div>;
+	return (
+		<div>
+			<CustomTitle title='Portfolio' />
+			This is portfolio page
+		</div>
+	);
 };
 
 export default Portfolio;
