@@ -10,6 +10,7 @@ export default {
 				'base-200': '#F6FCFF',
 				'base-300': '#666',
 				'header-color': '#2D3445',
+				'input-label-color': '#545454',
 			},
 			boxShadow: {
 				card: '0px 13px 19px 0px rgba(0,0,0,0.07)',

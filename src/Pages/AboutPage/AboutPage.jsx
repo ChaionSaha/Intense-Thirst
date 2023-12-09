@@ -1,3 +1,4 @@
+import CustomTitle from '../../Components/CustomeTitle';
 import HeroSection from '../../Components/HeroSection';
 import TimelineSection from '../../Components/TimelineSection';
 import hero from '../../img/about-hero.png';
@@ -7,6 +8,7 @@ import AboutPageServiceSection from './AboutPageServiceSection';
 const AboutPage = () => {
 	return (
 		<div>
+			<CustomTitle title='About Us' />
 			<HeroSection img={hero} text='About Us' />
 			<AboutDetailsSection />
 			<AboutPageServiceSection />
