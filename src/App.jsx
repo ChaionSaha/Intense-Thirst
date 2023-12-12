@@ -1,5 +1,7 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './App.css';
 import CustomTitle from './Components/CustomeTitle';
 import Footer from './Components/Footer';
@@ -19,11 +21,11 @@ function App() {
 				<Route path='/' element={<HomePage />} />
 				<Route path='/about' element={<AboutPage />} />
 				<Route path='/contact' element={<ContactUs />} />
-				<Route path='/portfolio' element={<Portfolio />}>
-					<Route path='/portfolio/:id' element={<PortfolioDetails />} />
-				</Route>
+				<Route path='/portfolio' element={<Portfolio />} />
+				<Route path='/portfolio/:id' element={<PortfolioDetails />} />
 			</Routes>
 			<Footer />
+			<ToastContainer />
 		</div>
 	);
 }

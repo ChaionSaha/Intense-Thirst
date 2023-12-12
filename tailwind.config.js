@@ -15,6 +15,7 @@ export default {
 				'base-100': '#fff',
 				'base-200': '#F6FCFF',
 				'base-300': '#666',
+				'base-400': '#969AA0',
 				'header-color': '#2D3445',
 				'input-label-color': '#545454',
 			},

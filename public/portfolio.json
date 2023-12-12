@@ -1,12 +1,13 @@
 [
 	{
+		"id": "1",
 		"name": "Smiling Face",
 		"shortDes": "customer meeting done, UX design complete; development and testing finished. Success!",
 		"projectCat": "organization",
 		"details": {
 			"cat": "organization",
-			"tags": ["Non-profit", "Humanity"],
-			"technologies": ["UI/UX (Figma)", "Development (Wordpress "],
+			"tags": "Non-profit, Humanity",
+			"technologies": "UI/UX (Figma), Development (Wordpress).",
 			"information": "Smiling Face is a non-profitable organization working to achieve the goal of ensuring basic human needs. We believe that everything is possible if we try anything from the core of our hearts.  We are working in a limited sphere currently as we have just started to grow. However, we believe in our potential and can generate tremendous change if you spread your hand of humanity. A small contribution from everyone can bring a extensive consequence unitedly and can be a booster to our DREAM",
 			"benefits": [
 				"Smiling Face ensures access to basic human needs.",
@@ -15,6 +16,70 @@
 				"Instills hope and optimism in the lives of those served. "
 			]
 		},
-		"images": {}
+		"images": {
+			"cover": "/img/smiling-face-cover.png",
+			"overview": "/img/smiling-face-project-overview.png",
+			"benefit": "/img/smiling-face-benefit.png",
+			"carousel": [
+				"/img/smiling-face-slider-1.png",
+				"/img/smiling-face-slider-2.png",
+				"/img/smiling-face-slider-3.png"
+			]
+		}
+	},
+	{
+		"id": "2",
+		"name": "Intrust BD ",
+		"shortDes": "Customer meeting concluded, UX design finalized; development and testing completed. Delivered!",
+		"projectCat": "business",
+		"details": {
+			"cat": "business",
+			"tags": "Automated- Solution, Security",
+			"technologies": "UI/UX (Figma), Development (Wordpress).",
+			"information": "InTrust Pride Ourselves On Offering High Quality Automated Solution Within Your Budget And Provide Protection For Your Trade And Industry. We Work With Architects, Homeowners, And Business Owners, Whatever Their Size, To Ensure Their Premises And Homes Are Protected With Up-To-Date That Are Guaranteed Long Service Life And Efficiency.",
+			"benefits": [
+				"Technology Dedicated To Our Customers’ Need",
+				"Flexibility For Products, Services And Delivery Times",
+				"Customer Relation Being Close To The Customers"
+			]
+		},
+		"images": {
+			"cover": "/img/intrust-bd-cover.png",
+			"overview": "/img/intrust-bd-project-overview.png",
+			"benefit": "/img/intrust-bd-benefit.png",
+			"carousel": [
+				"/img/intrust-bd-slider-1.png",
+				"/img/intrust-bd-slider-2.png",
+				"/img/intrust-bd-slider-3.png"
+			]
+		}
+	},
+	{
+		"id": "3",
+		"name": "Cozmic Technology",
+		"shortDes": "Customer meeting concluded, UX design finalized;  Delivered!",
+		"projectCat": "Real Estate ",
+		"details": {
+			"cat": "real states",
+			"tags": "Geotechnical, Architects",
+			"technologies": "UI/UX (Figma)",
+			"information": "Cozmic Technology is a Bangladeshi Incorporated engineering firm. We specialize in Engineering Consultancy, Architecture, Construction and Construction Project management services. We design a wide range of building types that each excel at their function, provide a high-quality environment for people, and strengthen their client’s brand and identity. While we are most well-known for structure to communities through high-performance buildings and smart infrastructure, we provide much more than that. We are committed to providing the best possible construction expertise & service to ensure cost-effective and successful engineering projects.",
+			"benefits": [
+				"Communication Throughout Process",
+				"High-Performance Buildings",
+				"Cost-Effective Solutions",
+				"smart infrastructure"
+			]
+		},
+		"images": {
+			"cover": "/img/cozmic-technology-cover.png",
+			"overview": "/img/cozmic-technology-project-overview.png",
+			"benefit": "/img/cozmic-technology-benefit.png",
+			"carousel": [
+				"/img/cozmic-technology-slider-1.png",
+				"/img/cozmic-technology-slider-2.png",
+				"/img/cozmic-technology-slider-3.png"
+			]
+		}
 	}
 ]

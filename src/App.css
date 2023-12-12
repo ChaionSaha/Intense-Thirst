@@ -3,7 +3,7 @@
 }
 
 .btn-gradient {
-	@apply text-white border-transparent px-7 btn rounded-xl;
+	@apply text-white border-transparent lg:px-7 btn rounded-xl;
 	border-radius: 10px;
 	background: linear-gradient(
 			180deg,
