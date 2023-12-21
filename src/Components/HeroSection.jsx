@@ -8,6 +8,7 @@ const HeroSection = ({ img, text }) => {
 				background: `linear-gradient(0deg, rgba(0, 74, 119, 0.87) 0%, rgba(0, 74, 119, 0.87) 100%), url(${img})`,
 				backgroundRepeat: 'no-repeat',
 				backgroundPosition: 'center',
+				backgroundSize: 'cover',
 			}}
 		>
 			<div className='container flex items-center justify-center w-full h-full text-4xl font-bold text-white lg:text-5xl'>

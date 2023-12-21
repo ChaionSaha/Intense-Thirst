@@ -16,7 +16,7 @@ const BenefitSection = ({ benefits, img }) => {
 					})}
 				</ul>
 			</div>
-			<img src={img} className='rounded-xl' alt='' />
+			<img src={img} className='order-first rounded-xl lg:order-last' alt='' />
 		</div>
 	);
 };

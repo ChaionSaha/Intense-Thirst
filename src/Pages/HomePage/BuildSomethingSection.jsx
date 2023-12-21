@@ -5,7 +5,10 @@ import bg from '../../img/build-together-bg.png';
 const BuildSomethingSection = () => {
 	const navigate = useNavigate();
 	return (
-		<div className='h-[50vh] mt-20' style={{ background: `url(${bg})` }}>
+		<div
+			className='h-[50vh] mt-20'
+			style={{ background: `url(${bg})`, backgroundSize: 'cover' }}
+		>
 			<div className='container flex flex-col items-center justify-center h-full px-5 text-center lg:px-0'>
 				<p className='flex-col text-3xl font-bold lg:flex lg:text-5xl'>
 					Let's Build Something Great{' '}

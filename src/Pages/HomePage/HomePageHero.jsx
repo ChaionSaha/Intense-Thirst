@@ -8,6 +8,7 @@ const HomePageHero = ({ handleClick }) => {
 			style={{
 				background: `linear-gradient(0deg, rgba(0, 74, 119, 0.70) 0%, rgba(0, 74, 119, 0.70) 100%), url(${heroBg})`,
 				backgroundPositionY: '50%',
+				backgroundSize: 'cover',
 			}}
 		>
 			<div className='container relative flex flex-col items-center justify-center w-full h-full '>

@@ -24,7 +24,7 @@ const TimelineSection = ({ header, text }) => {
 	]);
 	return (
 		<div
-			className='lg:h-[160vh] h-fit mt-10  bg-center bg-no-repeat'
+			className='mt-10 bg-center bg-no-repeat  lg:py-10 h-fit'
 			style={{
 				background: `url(${bg})`,
 				backgroundRepeat: 'no-repeat',
