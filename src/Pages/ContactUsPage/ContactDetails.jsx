@@ -37,15 +37,21 @@ const ContactDetails = () => {
 					Stay connected! Follow us on social media for updates and insights.
 				</p>
 				<div className='flex mt-5 gap-x-5'>
-					<button className='btn btn-ghost'>
+					<a
+						href='https://www.linkedin.com/company/intense-thirst/'
+						className='btn btn-ghost'
+					>
 						<i className='text-2xl bi bi-linkedin'></i>
-					</button>
-					<button className='btn btn-ghost'>
+					</a>
+					<a
+						href='https://www.facebook.com/intenseThirst'
+						className='btn btn-ghost'
+					>
 						<i className='text-2xl bi bi-facebook'></i>
-					</button>
-					<button className='btn btn-ghost'>
+					</a>
+					{/* <button className='btn btn-ghost'>
 						<i className='text-2xl bi bi-pinterest'></i>
-					</button>
+					</button> */}
 				</div>
 			</div>
 			<div className='lg:w-[70%] w-full bg-base-100 flex flex-col p-5  lg:p-10 rounded-xl shadow-card'>

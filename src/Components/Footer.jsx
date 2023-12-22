@@ -13,12 +13,18 @@ const Footer = () => {
 						thirst for digital success.
 					</p>
 					<div className='flex text-primary gap-x-3'>
-						<p className='p-2 px-3 bg-white rounded-full'>
+						<a
+							href='https://www.facebook.com/intenseThirst'
+							className='p-2 px-3 bg-white rounded-full'
+						>
 							<i className='bi bi-facebook'></i>
-						</p>
-						<p className='p-2 px-3 bg-white rounded-full'>
+						</a>
+						<a
+							href='https://www.linkedin.com/company/intense-thirst/'
+							className='p-2 px-3 bg-white rounded-full'
+						>
 							<i className='bi bi-linkedin'></i>
-						</p>
+						</a>
 					</div>
 				</div>
 				<div className='flex flex-col'>
