@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import HeaderText from '../../Components/HeaderText';
 import corporate from '../../img/corporate.png';
 import ecom from '../../img/ecom-retail.png';
@@ -65,9 +66,12 @@ const OurServicesSection = () => {
 							<div className='p-5'>
 								<p className='text-xl font-bold'>{s.header}</p>
 								<p className='mt-5 text-base-300'>{s.details}</p>
-								<p className='mt-3 text-lg font-bold cursor-pointer text-secondary hover:underline'>
+								<NavLink
+									to='/portfolio'
+									className='mt-3 text-lg font-bold cursor-pointer text-secondary hover:underline'
+								>
 									Read More
-								</p>
+								</NavLink>
 							</div>
 						</div>
 					);

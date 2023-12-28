@@ -1,9 +1,10 @@
 import React from 'react';
+import contactUs from '../../img/contact-us-1.png';
 
 const ContactDetails = () => {
 	return (
-		<div className='container flex flex-col items-center justify-center min-h-screen gap-10 px-5 my-10 lg:px-0 lg:flex-row'>
-			<div className='lg:w-[30%] flex flex-col'>
+		<div className='container grid items-center justify-center min-h-screen gap-10 px-5 my-10 lg:grid-cols-2 lg:px-0'>
+			<div className='flex flex-col '>
 				<p className='font-semibold tracking-widest uppercase text-secondary'>
 					Contact
 				</p>
@@ -54,7 +55,7 @@ const ContactDetails = () => {
 					</button> */}
 				</div>
 			</div>
-			<div className='lg:w-[70%] w-full bg-base-100 flex flex-col p-5  lg:p-10 rounded-xl shadow-card'>
+			{/* <div className='lg:w-[70%] w-full bg-base-100 flex flex-col p-5  lg:p-10 rounded-xl shadow-card'>
 				<div className='grid gap-10 lg:grid-cols-2'>
 					<div className='flex flex-col gap-y-3'>
 						<label
@@ -129,6 +130,9 @@ const ContactDetails = () => {
 				<button className='btn self-start mt-10 text-lg px-10 bg-gradient-to-b from-secondary to-[#E67638] text-white'>
 					Send Message
 				</button>
+			</div> */}
+			<div className='order-first  lg:order-last'>
+				<img src={contactUs} alt='' />
 			</div>
 		</div>
 	);
